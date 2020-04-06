@@ -8,7 +8,6 @@ class SysServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        halt('asdas');
         $this->bootLoadRouter();
     }
 
