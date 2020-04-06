@@ -1,5 +1,5 @@
 {
-    "name": "vertexphp/acmecms",
+    "name": "acmecms/acmecms",
     "description": "Modular and plug-in content management system",
     "type": "library",
     "keywords": ["laravel", "admin", "cms", "acme","acmecms"],
@@ -7,7 +7,7 @@
 	"license": "MIT",
     "authors": [
         {
-            "name": "vertexphp",
+            "name": "acmecms",
             "email": "672462206@qq.com"
         }
     ],
