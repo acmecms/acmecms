@@ -15,7 +15,7 @@ class SysServiceProvider extends ServiceProvider
     }
 
     protected function bootLoadRouter(){
-        Route::prefix('sys')->group(__DIR__.'/routes.php');
+        Route::namespace('Acme\Sys\Controllers')->prefix('sys')->group(__DIR__.'/routes.php');
 //        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 //        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }

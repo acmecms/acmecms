@@ -6,12 +6,12 @@
  * Time: 16:42
  */
 
-namespace Acme\Sys\Http\Controllers;
+namespace Acme\Sys\Controllers;
 
 
 class IndexController extends Controller
 {
     public function index(){
-        echo "---";
+        return view('sys::index');
     }
 }

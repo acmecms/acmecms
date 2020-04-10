@@ -7,4 +7,4 @@
  */
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', "IndexController@index")->name('sys.index');
+//Route::get('/', "IndexController")->name('sys.index');

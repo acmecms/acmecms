@@ -6,7 +6,7 @@
  * Time: 16:41
  */
 
-namespace Acme\Sys\Http\Controllers;
+namespace Acme\Sys\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 

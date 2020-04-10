@@ -5,4 +5,4 @@
  * Date: 2020/4/6
  * Time: 17:21
  */
-echo "---";
+echo "欢迎进入 ACMECMS";
