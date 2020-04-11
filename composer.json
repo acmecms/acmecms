@@ -3,8 +3,8 @@
     "description": "Modular and plug-in content management system",
     "type": "library",
     "keywords": ["laravel", "admin", "cms", "acme","acmecms"],
-    "homepage": "https://gitee.com/vertexer/acmecms.git",
-	"license": "MIT",
+    "homepage": "https://github.com/acmecms/acmecms",
+    "license": "MIT",
     "authors": [
         {
             "name": "acmecms",
