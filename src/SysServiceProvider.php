@@ -11,13 +11,11 @@ class SysServiceProvider extends ServiceProvider
     {
         $this->bootLoadRouter();
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'sys');
+        $this->publishes([__DIR__.'/../resources/assets' => public_path('acmecms')], 'acmecms-assets');
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
 
     protected function bootLoadRouter(){
         Route::namespace('Acme\Sys\Controllers')->prefix('sys')->group(__DIR__.'/routes.php');
-		
-//        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
-//        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }

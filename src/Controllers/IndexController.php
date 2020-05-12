@@ -14,4 +14,8 @@ class IndexController extends Controller
     public function index(){
         return view('sys::index');
     }
+
+    public function body(){
+        return view('sys::body');
+    }
 }
