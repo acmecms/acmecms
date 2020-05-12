@@ -1,5 +1,5 @@
 {
-    "name": "acmecms/acmecms",
+    "name": "acmephp/acmecms",
     "description": "Modular and plug-in content management system",
     "type": "library",
     "keywords": ["laravel", "admin", "cms", "acme","acmecms"],
